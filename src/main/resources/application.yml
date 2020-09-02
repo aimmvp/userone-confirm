@@ -25,7 +25,7 @@ spring:
       bindings:
         event-in:
           group: confirm
-          destination: ohcna
+          destination: userone
           contentType: application/json
         event-out:
           destination: ohcna
@@ -60,10 +60,10 @@ spring:
       bindings:
         event-in:
           group: confirm
-          destination: ohcna
+          destination: userone
           contentType: application/json
         event-out:
-          destination: ohcna
+          destination: userone
           contentType: application/json
 api:
   url:
